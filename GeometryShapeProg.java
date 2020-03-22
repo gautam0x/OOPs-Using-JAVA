@@ -16,7 +16,7 @@ class GeometryShapeProg{
         ref = R;
         ref.displayProperty();
 
-        System.out.print("\n Triangle : ");
+        System.out.print("\n Right Triangle : ");
         ref = T;
         ref.displayProperty();
 

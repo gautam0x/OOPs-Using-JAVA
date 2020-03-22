@@ -1,4 +1,4 @@
-package geometry_package;
+package shapes_package;
 
 public class ShapesProperty{
     double area;

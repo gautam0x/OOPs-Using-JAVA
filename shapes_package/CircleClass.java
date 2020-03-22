@@ -1,4 +1,4 @@
-package geometry_package;
+package shapes_package;
 import java.lang.Math;
 
 public class CircleClass extends ShapesProperty{

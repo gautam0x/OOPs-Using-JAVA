@@ -1,4 +1,4 @@
-package geometry_package;
+package shapes_package;
 
 public class RectangleClass extends ShapesProperty{
     public RectangleClass(double l, double b)
