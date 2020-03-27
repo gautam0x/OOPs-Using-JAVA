@@ -5,7 +5,7 @@ class Student
     int roll;
     void putRollNumber()
     {
-        System.out.println("Roll = "+roll);
+        System.out.println("\nRoll = "+roll);
     }
     void getRollNumber(int x)
     {
@@ -53,7 +53,7 @@ class Result extends Test implements Sport
     }
 }
 
-class InterfaceExample
+class StudentInterface
 {
     public static void main(String args[])
     {
@@ -75,5 +75,6 @@ class InterfaceExample
 
         // Display Total
         stud.display();
+        sc.close();
     }
 }

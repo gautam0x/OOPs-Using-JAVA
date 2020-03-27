@@ -26,5 +26,7 @@ class TryCatchExample
         {
             System.out.println("==> Finally Blocks Executed After All <==");
         }
+
+        sc.close();
     }
 }
