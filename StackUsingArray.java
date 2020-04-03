@@ -5,6 +5,7 @@ class StackClass
   int top=-1;
   int[] stack;
 
+  // Initialize Empty stack in constructor
   StackClass(int s)
   {
     size = s;
@@ -39,7 +40,7 @@ class StackClass
     System.out.print("\n *** Current Stack ");
     for(int i=0;i<=top;i++)
     {
-      System.out.print("->"+stack[i]);
+      System.out.print(" -> "+stack[i]);
     }
     System.out.print("\n");
   }
@@ -49,10 +50,13 @@ class StackUsingArray
 {
   public static void main(String args[])
   {
-    StackClass stobj = new StackClass(10);
+    // Declare new stack of size 10
+    StackClass stobj = new StackClass(5);
+
     int data,ch;
     Scanner sc = new Scanner(System.in);
 
+    // Take Input From User
     do
     {
       System.out.print("\n1> Push\n2> Pop\n3> Disp\n0> Quit\nChoose Option : ");
@@ -80,5 +84,7 @@ class StackUsingArray
         break;
       }
       }while(ch!=0);
+
+      sc.close();
   }
 }
