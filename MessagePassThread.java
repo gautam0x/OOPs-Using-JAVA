@@ -12,7 +12,7 @@ class Message
             catch (InterruptedException e) {}
         }
 
-        System.out.println("Student : "+message);
+        System.out.println("Teacher : "+message);
         isAnswer = true;
         notify();
     }
@@ -26,7 +26,7 @@ class Message
             catch (InterruptedException e) {}
         }
 
-        System.out.println("Teacher : "+message);
+        System.out.println("Student : "+message);
         isAnswer = false;
         notify();
     }
